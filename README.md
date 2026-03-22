@@ -95,8 +95,8 @@ SciPy (stats)      | Cross-validation      | Conditional Formatting
 -    Depreciation Intelligence: Brand × Age heatmap, retention curves
 -    Pricing Model: Actual vs predicted, value flags, model diagnostics
 
-Live Dashboard PDF
-🚀 Production Deployment
+### Live Dashboard
+🚀 [Production Deployment](assets/reports/Used_Bikes_PBI_Dashboard.pbix)
 
 ROI: 5% margin improvement on ₹10Cr turnover = ₹50 Lakh extra profit
 
