@@ -26,14 +26,16 @@ Market Overview	Depreciation Intelligence	Pricing Model
 - Brand × Age heatmap	- R² 0.85, MAE ₹28K
 - 90% Fair, 6% Undervalued
 - Actual vs Predicted
+  
 🛠️ Technical Stack
 
-
+```
 Data Processing    | Modeling              | Visualization
 ───────────────────┼───────────────────────┼──────────────────
 Pandas/NumPy       | Scikit-learn          | Power BI
 Matplotlib/Seaborn | Random Forest         | DAX Measures
 SciPy (stats)      | Cross-validation      | Conditional Formatting
+```
 
 🔬 Methodology
 1. Data Cleaning (Raw → 5,869 clean rows)
@@ -82,33 +84,25 @@ SciPy (stats)      | Cross-validation      | Conditional Formatting
 📈 Power BI Dashboards (3 Panels)
 
 -    Market Overview: 5,869 bikes, price distribution, top brands
-
 -    Depreciation Intelligence: Brand × Age heatmap, retention curves
-
 -    Pricing Model: Actual vs predicted, value flags, model diagnostics
 
 Live Dashboard PDF
 🚀 Production Deployment
-
-python
-def bike_price_predictor(model, bike_specs):
-    """Real-time fair value prediction"""
-    pred = model_pipeline.predict(pd.DataFrame([bike_specs]))[0]
-    print(f"✅ Fair value: ₹{pred:,.0f}")
-    print(f"💰 List at: ₹{pred*0.95:,.0f} - ₹{pred*1.05:,.0f}")
-    return pred
 
 ROI: 5% margin improvement on ₹10Cr turnover = ₹50 Lakh extra profit
 
 
 📁 Files Generated
 
+```
 ├── bikes_data_cleaned.csv           # Cleaned dataset (5,869 rows)
 ├── bike_factory_main.csv            # Power BI dashboard data  
 ├── bike_factory_depreciation.csv    # Depreciation analysis
 ├── bike_factory_predictions.csv     # Model performance metrics
 ├── Used_Bikes_PBI_Dashboard.pdf     # Interactive dashboard
 └── model_pipeline.pkl              # Trained Random Forest
+```
 
 🎓 Skills Demonstrated
 
