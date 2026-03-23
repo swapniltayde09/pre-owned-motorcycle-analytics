@@ -18,6 +18,17 @@ The Bike Factory sources and resells pre-owned motorcycles but lacks data-driven
 
 <img src="assets/images/Used_Bikes_PBI_Dashboard_page-0003.jpg"/>
 
+## 📊 **Dashboard Highlights**
+
+| **Market Overview** | **Depreciation Intelligence** | **Pricing Model** |
+|---|---|---|
+| ![Market](assets/images/Used_Bikes_PBI_Dashboard_page-0001.jpg) | ![Depreciation](assets/images/Used_Bikes_PBI_Dashboard_page-0002.jpg) | ![Model](assets/images/Used_Bikes_PBI_Dashboard_page-0003.jpg) |
+| - 5,869 bikes analyzed<br>- ₹1.20L avg price<br>- Bajaj #1 brand | - **Aprilia slowest depreciation**<br>- Bajaj fastest (budget)<br>- Brand × Age heatmap | - **R² 0.85, MAE ₹28K**<br>- 90% Fair, 6% Undervalued<br>- Actual vs Predicted |
+
+```
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yzEoMJxalbnxvm-4CqXItdj82MWHR8Ak)
+
 ### Solution: ML model + dashboard delivering:
 
 -    Fair market value predictions (R² = 0.85)
