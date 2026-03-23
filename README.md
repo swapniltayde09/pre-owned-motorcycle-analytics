@@ -10,14 +10,29 @@ The Bike Factory sources and resells pre-owned motorcycles but lacks data-driven
    - Undercutting resale value
    - Missing negotiation leverage
 
-### 📊 **Dashboard Preview**
+### 📊 **Dashboard Preview & Highlights**
 
 <img src="assets/images/Used_Bikes_PBI_Dashboard_page-0001.jpg"/>
 
+#### Market Overview
+- Analyzed 5,869 cleaned pre-owned motorcycle listings.
+- Average bike price is ₹1.20 lakh.
+- Bajaj appears as the most listed brand in the dataset.
+  
 <img src="assets/images/Used_Bikes_PBI_Dashboard_page-0002.jpg"/>
 
+#### Depreciation Intelligence
+- Aprilia shows the slowest depreciation among key brands.
+- Bajaj depreciates faster, especially in the budget segment.
+- Brand × age heatmap highlights depreciation patterns across segments.
+  
 <img src="assets/images/Used_Bikes_PBI_Dashboard_page-0003.jpg"/>
 
+#### Pricing Model
+- Price prediction model achieved R² = 0.85 and MAE = ₹28K.
+- Around 90% of listings are fairly priced, while ~6% are undervalued.
+- Actual vs predicted visuals help identify buying and negotiation opportunities.
+  
 [![Open Project in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yzEoMJxalbnxvm-4CqXItdj82MWHR8Ak)
 
 ### Solution: ML model + dashboard delivering:
@@ -26,16 +41,6 @@ The Bike Factory sources and resells pre-owned motorcycles but lacks data-driven
 -    483 undervalued/overpriced bikes = ₹58 Lakh profit opportunity
 -    Brand depreciation rates for sourcing strategy
 
-### 📊 Dashboard Highlights
-
-```
-| **Market Overview** | **Depreciation Intelligence** | **Pricing Model** |
-|---|---|---|
-| ![Market](screenshots/market.png) | ![Depreciation](screenshots/depreciation.png) | ![Model](screenshots/model.png) |
-| • **5,869 bikes** analyzed | • **Aprilia**: slowest depreciation | • **R² 0.85** \| MAE ₹28K |
-| • Avg price **₹1.20L** | • **Bajaj**: fastest (budget) | • **90% Fair** \| **6% Undervalued** |
-| • **Bajaj #1** brand | • Brand × Age **heatmap** | • Actual vs Predicted **scatter** |
-```
 
 ### 🛠️ Technical Stack
 
