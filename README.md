@@ -20,6 +20,8 @@ The Bike Factory sources and resells pre-owned motorcycles but lacks data-driven
 
 ## 📊 **Dashboard Highlights**
 
+```
+
 | **Market Overview** | **Depreciation Intelligence** | **Pricing Model** |
 |---|---|---|
 | ![Market](assets/images/Used_Bikes_PBI_Dashboard_page-0001.jpg) | ![Depreciation](assets/images/Used_Bikes_PBI_Dashboard_page-0002.jpg) | ![Model](assets/images/Used_Bikes_PBI_Dashboard_page-0003.jpg) |
